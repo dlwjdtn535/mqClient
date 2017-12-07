@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+activemq:
+  broker:
+    url: ssl://b-488f010f-13d6-4822-a449-cdb7c2362fc7-1.mq.us-east-1.amazonaws.com:61617
+    user: admin
+    password: your-password
+  queue:
+    name: twitter-messages
+
+spring:
+  activemq:
+    in-memory: false
